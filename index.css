@@ -15,23 +15,27 @@
     height:100%;
     display:flex;
     align-items: center;
-    justify-content: center;
- 
+    justify-content: center; 
 }
+
 .box_container{
-    position:absolute;
-    width:280px;
+    position:relative;
+     height:100vh;
+    width:100vw; 
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
 }
-.box{
-    width:140px;
-    height:90px;
-    position:relative;
-   
+.div1_container{
+aspect-ratio: 1/2;
 }
+
+ .box{
+    aspect-ratio: 1;
+    width:15vw;
+
+} 
 .box1{
     border:1.5px solid red;
 }
@@ -46,7 +50,8 @@
 }
 .box5{
     border:1.5px solid #c70f3f;
-    width:100px;
-    height:100px;
+    width:10vw;
+    aspect-ratio: 1;
     position:absolute;
-}
+} 
+
